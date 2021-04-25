@@ -33,6 +33,50 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-waterfall .path1:before {
+  content: "\e92b";
+  color: rgb(183, 227, 247);
+}
+.icon-waterfall .path2:before {
+  content: "\e92c";
+  margin-left: -1em;
+  color: rgb(20, 180, 188);
+}
+.icon-waterfall .path3:before {
+  content: "\e92d";
+  margin-left: -1em;
+  color: rgb(116, 52, 11);
+}
+.icon-waterfall .path4:before {
+  content: "\e92e";
+  margin-left: -1em;
+  color: rgb(28, 225, 228);
+}
+.icon-waterfall .path5:before {
+  content: "\e92f";
+  margin-left: -1em;
+  color: rgb(156, 76, 16);
+}
+.icon-waterfall .path6:before {
+  content: "\e930";
+  margin-left: -1em;
+  color: rgb(188, 99, 20);
+}
+.icon-waterfall .path7:before {
+  content: "\e931";
+  margin-left: -1em;
+  color: rgb(20, 189, 196);
+}
+.icon-waterfall .path8:before {
+  content: "\e932";
+  margin-left: -1em;
+  color: rgb(156, 120, 108);
+}
+.icon-waterfall .path9:before {
+  content: "\e933";
+  margin-left: -1em;
+  color: rgb(196, 116, 84);
+}
 .icon-airplane .path1:before {
   content: "\e900";
   color: rgb(255, 255, 255);
