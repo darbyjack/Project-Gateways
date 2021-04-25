@@ -77,65 +77,6 @@
   margin-left: -1em;
   color: rgb(196, 116, 84);
 }
-.icon-airplane .path1:before {
-  content: "\e900";
-  color: rgb(255, 255, 255);
-}
-.icon-airplane .path2:before {
-  content: "\e901";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
-.icon-airplane .path3:before {
-  content: "\e902";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
-.icon-airplane .path4:before {
-  content: "\e903";
-  margin-left: -1em;
-  color: rgb(192, 103, 40);
-}
-.icon-airplane .path5:before {
-  content: "\e904";
-  margin-left: -1em;
-  color: none;
-}
-.icon-airplane .path6:before {
-  content: "\e905";
-  margin-left: -1em;
-  color: rgb(192, 103, 40);
-}
-.icon-airplane .path7:before {
-  content: "\e906";
-  margin-left: -1em;
-  color: none;
-}
-.icon-airplane .path8:before {
-  content: "\e907";
-  margin-left: -1em;
-  color: rgb(192, 103, 40);
-}
-.icon-airplane .path9:before {
-  content: "\e908";
-  margin-left: -1em;
-  color: none;
-}
-.icon-airplane .path10:before {
-  content: "\e909";
-  margin-left: -1em;
-  color: rgb(92, 62, 52);
-}
-.icon-airplane .path11:before {
-  content: "\e90a";
-  margin-left: -1em;
-  color: rgb(192, 103, 40);
-}
-.icon-airplane .path12:before {
-  content: "\e90b";
-  margin-left: -1em;
-  color: none;
-}
 .icon-paper .path1:before {
   content: "\e90c";
   color: rgb(255, 255, 255);
