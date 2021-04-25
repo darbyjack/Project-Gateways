@@ -1,20 +1,9 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 
-import { url, defaultDescription, defaultTitle, legalName, logo } from '../data/config';
+import { url, defaultDescription, defaultTitle} from '../data/config';
 
 const SEO = ({ title = defaultTitle, description = defaultDescription, location = '' }) => {
-    const structuredDataOrganization = `{ 
-		"@context": "http://schema.org",
-		"@type": "Organization",
-		"legalName": "${legalName}",
-		"url": "${url}",
-		"logo": "${logo}",
-		"founders": [{
-			"@type": "Person",
-			"name": "${legalName}"
-		}],
-  	}`;
 
     return (
         <Helmet>
@@ -28,7 +17,6 @@ const SEO = ({ title = defaultTitle, description = defaultDescription, location 
             <meta name="twitter:card" content="summary" />
             <meta name="twitter:title" content={title} />
             <meta name="twitter:description" content={description} />
-            <script type="application/ld+json">{structuredDataOrganization}</script>
             <title>{title}</title>
             <html lang="en" dir="ltr" />
         </Helmet>
