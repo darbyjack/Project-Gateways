@@ -1,10 +1,18 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('./Test/icomoon.eot?u2bw1k');
-  src:  url('./Test/icomoon.eot?u2bw1k#iefix') format('embedded-opentype'),
-  url('./Test/icomoon.ttf?u2bw1k') format('truetype'),
-  url('./Test/icomoon.woff?u2bw1k') format('woff'),
-  url('./Test/icomoon.svg?u2bw1k#icomoon') format('svg');
+  src:  url('./Icons/icomoon.eot?u2bw1k');
+  src:  url('./Icons/icomoon.eot?u2bw1k#iefix') format('embedded-opentype'),
+  url('./Icons/icomoon.ttf?u2bw1k') format('truetype'),
+  url('./Icons/icomoon.woff?u2bw1k') format('woff'),
+  url('./Icons/icomoon.svg?u2bw1k#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('./Raleway/raleway.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: block;

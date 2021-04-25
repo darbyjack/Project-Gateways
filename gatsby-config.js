@@ -17,12 +17,5 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
-    {
-      resolve: "gatsby-plugin-google-fonts",
-      options: {
-        fonts: ["Raleway:300,400"],
-        display: "swap",
-      },
-    },
   ],
 };

@@ -23,12 +23,12 @@ class Index extends Component {
                 const latest = Math.max(...data.builds);
                 this.setState({ paper: latest });
             });
-        fetch(WATERFALL_URL)
-            .then(response => response.json())
-            .then(data => {
-                const latest = Math.max(...data.builds);
-                this.setState({ waterfall: latest });
-            });
+        // fetch(WATERFALL_URL)
+        //     .then(response => response.json())
+        //     .then(data => {
+        //         const latest = Math.max(...data.builds);
+        //         this.setState({ waterfall: latest });
+        //     });
     }
 
     render() {
