@@ -1,0 +1,54 @@
+@import "../static/fonts/fonts.css";
+
+@import "themes";
+
+html,
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-display: swap;
+  width: 100%;
+  background-color: rgb(33, 33, 33)!important;
+  // font-size: calc(16px * ((80vw - 700px) / (1600 - 400)));
+  // line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px) / (1600 - 300)));
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+hr {
+  border: none!important;
+}
+
+.app-container * {
+  transition: color 0.45s ease-in-out;
+  transition: background 0.45s ease-in-out;
+}
+
+.bg-none {
+  background: rgba(0, 0, 0, 0) !important;
+}
+
+.i-5 {
+  text-indent: 5vmin;
+}
+
+.icons-container a {
+  margin: 0 1rem;
+}
+
+.border {
+  border: 5px solid #dee2e6 !important;
+}
+
+.icon {
+  font-size: 10.00rem;
+  margin: 0.1rem;
+  color: $gray-600;
+}
+
+a:hover {
+  text-decoration: none!important;
+}
