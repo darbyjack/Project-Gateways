@@ -6,6 +6,7 @@ import {Component} from "react";
 
 const PAPER_URL = 'https://papermc.io/api/v2/projects/paper/versions/1.16.5';
 const WATERFALL_URL = 'https://papermc.io/api/v2/projects/waterfall/versions/1.16';
+const SPONGE_URL = 'https://repo-new.spongepowered.org/service/rest/v1/search?repository=maven-releases&group=org.spongepowered&name=spongevanilla&sort=version&direction=desc';
 
 class Index extends Component {
     constructor(props) {
@@ -13,6 +14,7 @@ class Index extends Component {
         this.state = {
           paper: 0,
           waterfall: 0,
+          sponge: '',
         };
     }
 
@@ -28,6 +30,13 @@ class Index extends Component {
             .then(data => {
                 const latest = Math.max(...data.builds);
                 this.setState({ waterfall: latest });
+            });
+
+        fetch(SPONGE_URL)
+            .then(response => response.json())
+            .then(data => {
+                const latest = data.items[0].assets[0].downloadUrl;
+                this.setState({ sponge: latest })
             });
     }
 
@@ -89,6 +98,11 @@ class Index extends Component {
                                         className="path4"></span><span className="path5"></span><span
                                         className="path6"></span><span className="path7"></span><span
                                         className="path8"></span><span className="path9"></span></span>
+                                </a>
+                            </Col>
+                            <Col>
+                                <a href={`${this.state.sponge}`} download>
+                                    <span className="icon-sponge icon"></span>
                                 </a>
                             </Col>
                         </Row>

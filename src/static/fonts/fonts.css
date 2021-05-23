@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('./Icons/icomoon.eot?u2bw1k');
-  src:  url('./Icons/icomoon.eot?u2bw1k#iefix') format('embedded-opentype'),
-  url('./Icons/icomoon.ttf?u2bw1k') format('truetype'),
-  url('./Icons/icomoon.woff?u2bw1k') format('woff'),
-  url('./Icons/icomoon.svg?u2bw1k#icomoon') format('svg');
+  src:  url('./Icons/icomoon.eot?gieksq');
+  src:  url('./Icons/icomoon.eot?gieksq#iefix') format('embedded-opentype'),
+  url('./Icons/icomoon.ttf?gieksq') format('truetype'),
+  url('./Icons/icomoon.woff?gieksq') format('woff'),
+  url('./Icons/icomoon.svg?gieksq#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -33,6 +33,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-sponge:before {
+  content: "\e900";
+  color: #f7cf0d;
+}
 .icon-waterfall .path1:before {
   content: "\e92b";
   color: rgb(183, 227, 247);
