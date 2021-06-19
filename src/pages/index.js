@@ -4,8 +4,8 @@ import SEO from "../components/SEO"
 import {Col, Container, Row} from "react-bootstrap"
 import {Component} from "react";
 
-const PAPER_URL = 'https://papermc.io/api/v2/projects/paper/versions/1.16.5';
-const WATERFALL_URL = 'https://papermc.io/api/v2/projects/waterfall/versions/1.16';
+const PAPER_URL = 'https://papermc.io/api/v2/projects/paper/versions/1.17';
+const WATERFALL_URL = 'https://papermc.io/api/v2/projects/waterfall/versions/1.17';
 
 class Index extends Component {
     constructor(props) {
@@ -54,7 +54,7 @@ class Index extends Component {
                     <Container>
                         <Row>
                             <Col>
-                                <a href={`https://papermc.io/api/v2/projects/paper/versions/1.16.5/builds/${this.state.paper}/downloads/paper-1.16.5-${this.state.paper}.jar`} download>
+                                <a href={`https://papermc.io/api/v2/projects/paper/versions/1.17/builds/${this.state.paper}/downloads/paper-1.17-${this.state.paper}.jar`} download>
                   <span className="icon-paper icon"><span className="path1"></span><span className="path2"></span><span
                       className="path3"></span><span className="path4"></span><span className="path5"></span><span
                       className="path6"></span><span className="path7"></span><span className="path8"></span><span
@@ -83,7 +83,7 @@ class Index extends Component {
                                 </a>
                             </Col>
                             <Col>
-                                <a href={`https://papermc.io/api/v2/projects/waterfall/versions/1.16/builds/${this.state.waterfall}/downloads/waterfall-1.16-${this.state.waterfall}.jar`} download>
+                                <a href={`https://papermc.io/api/v2/projects/waterfall/versions/1.17/builds/${this.state.waterfall}/downloads/waterfall-1.17-${this.state.waterfall}.jar`} download>
                                     <span className="icon-waterfall icon"><span className="path1"></span><span
                                         className="path2"></span><span className="path3"></span><span
                                         className="path4"></span><span className="path5"></span><span
