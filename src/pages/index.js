@@ -62,7 +62,7 @@ class Index extends Component {
                                 </a>
                             </Col>
                             <Col>
-                                <a href="https://ci.codemc.io/job/Spottedleaf/job/Tuinity/lastSuccessfulBuild/artifact/tuinity-paperclip.jar" download>
+                                <a href="https://ci.codemc.io/job/Spottedleaf/job/Tuinity-1.17/lastSuccessfulBuild/artifact/tuinity-paperclip.jar" download>
                   <span className="icon-tuinity icon"><span className="path1"></span><span className="path2"></span><span
                       className="path3"></span><span className="path4"></span><span className="path5"></span><span
                       className="path6"></span><span className="path7"></span><span className="path8"></span></span>
