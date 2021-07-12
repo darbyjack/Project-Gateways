@@ -77,7 +77,7 @@ class Index extends Component {
                                 </a>
                             </Col>
                             <Col>
-                                <a href="https://ci.velocitypowered.com/job/velocity-3.0.0/lastSuccessfulBuild/artifact/proxy/build/libs/velocity-proxy-3.0.0-SNAPSHOT-all.jar" download>
+                                <a href="https://ci.velocitypowered.com/job/velocity-3.0.0/lastSuccessfulBuild/artifact/proxy/build/libs/velocity-proxy-3.0.1-SNAPSHOT-all.jar" download>
                   <span className="icon-velocity icon"><span className="path1"></span><span className="path2"></span><span
                       className="path3"></span></span>
                                 </a>
