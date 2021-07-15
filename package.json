@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.6.0",
-    "gatsby": "^3.9.0",
+    "gatsby": "^3.9.1",
     "gatsby-plugin-react-helmet": "^4.9.0",
     "gatsby-plugin-sass": "^4.9.0",
     "gatsby-source-filesystem": "^3.9.0",

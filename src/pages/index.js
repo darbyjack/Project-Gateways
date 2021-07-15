@@ -69,7 +69,7 @@ class Index extends Component {
                                 </a>
                             </Col>
                             <Col>
-                                <a href="https://ci.pl3x.net/job/Purpur/lastSuccessfulBuild/artifact/final/purpurclip.jar" download>
+                                <a href="https://api.pl3x.net/v2/purpur/1.17.1/latest/download" download>
                   <span className="icon-purpur icon"><span className="path1"></span><span className="path2"></span><span
                       className="path3"></span><span className="path4"></span><span className="path5"></span><span
                       className="path6"></span><span className="path7"></span><span className="path8"></span><span
