@@ -62,13 +62,6 @@ class Index extends Component {
                                 </a>
                             </Col>
                             <Col>
-                                <a href="https://ci.codemc.io/job/Spottedleaf/job/Tuinity-1.17/lastSuccessfulBuild/artifact/tuinity-paperclip.jar" download>
-                  <span className="icon-tuinity icon"><span className="path1"></span><span className="path2"></span><span
-                      className="path3"></span><span className="path4"></span><span className="path5"></span><span
-                      className="path6"></span><span className="path7"></span><span className="path8"></span></span>
-                                </a>
-                            </Col>
-                            <Col>
                                 <a href="https://api.pl3x.net/v2/purpur/1.17.1/latest/download" download>
                   <span className="icon-purpur icon"><span className="path1"></span><span className="path2"></span><span
                       className="path3"></span><span className="path4"></span><span className="path5"></span><span
@@ -77,7 +70,7 @@ class Index extends Component {
                                 </a>
                             </Col>
                             <Col>
-                                <a href="https://ci.velocitypowered.com/job/velocity-3.0.0/lastSuccessfulBuild/artifact/proxy/build/libs/velocity-proxy-3.0.1-SNAPSHOT-all.jar" download>
+                                <a href="https://versions.velocitypowered.com/download/latest" download>
                   <span className="icon-velocity icon"><span className="path1"></span><span className="path2"></span><span
                       className="path3"></span></span>
                                 </a>
