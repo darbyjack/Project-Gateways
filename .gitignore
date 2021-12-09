@@ -1,5 +1,3 @@
 node_modules/
 .cache/
 public
-wrangler.toml
-workers-site/*

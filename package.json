@@ -12,7 +12,6 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "publish": "gatsby build && wrangler publish",
     "clean": "gatsby clean"
   },
   "dependencies": {
