@@ -6,13 +6,14 @@ import {Component} from "react";
 
 const PAPER_URL = 'https://papermc.io/api/v2/projects/paper/versions/1.17.1';
 const WATERFALL_URL = 'https://papermc.io/api/v2/projects/waterfall/versions/1.17';
-
+const VELOCITY_URL = 'https://papermc.io/api/v2/projects/velocity/versions/3.1.2-SNAPSHOT';
 class Index extends Component {
     constructor(props) {
         super(props);
         this.state = {
           paper: 0,
           waterfall: 0,
+          velocity: 0,
         };
     }
 
@@ -29,8 +30,13 @@ class Index extends Component {
                 const latest = Math.max(...data.builds);
                 this.setState({ waterfall: latest });
             });
+        fetch(VELOCITY_URL)
+            .then(response => response.json())
+            .then(data => {
+                const latest = Math.max(...data.builds);
+                this.setState({ velocity: latest });
+            });
     }
-
     render() {
         return (
             <PageLayout>
@@ -70,7 +76,7 @@ class Index extends Component {
                                 </a>
                             </Col>
                             <Col>
-                                <a href="https://versions.velocitypowered.com/download/latest" download>
+                                <a href={`https://papermc.io/api/v2/projects/velocity/versions/3.1.2-SNAPSHOT/builds/${this.state.velocity}/downloads/velocity-3.1.2-SNAPSHOT-${this.state.velocity}.jar`} download>
                   <span className="icon-velocity icon"><span className="path1"></span><span className="path2"></span><span
                       className="path3"></span></span>
                                 </a>
