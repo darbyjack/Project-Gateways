@@ -3,7 +3,6 @@ import PageLayout from "../components/PageLayout"
 import SEO from "../components/SEO"
 import {Col, Container, Row} from "react-bootstrap"
 import {Component} from "react";
-import {Helmet} from "react-helmet";
 
 const PAPER_URL = 'https://papermc.io/api/v2/projects/paper/versions/1.18.1';
 const WATERFALL_URL = 'https://papermc.io/api/v2/projects/waterfall/versions/1.18';
@@ -99,9 +98,6 @@ class Index extends Component {
                         </Row>
                     </Container>
                 </Container>
-                <Helmet>
-                    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "7df1753952b346bcbf791724f7da8392"}'/>
-                </Helmet>
             </PageLayout>
         );
     }
